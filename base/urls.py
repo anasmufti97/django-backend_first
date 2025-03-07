@@ -5,11 +5,14 @@ from .import  views
 
 urlpatterns  =[
 
-path('',
+path(
+    '',
       views.home,
       name = "home" ),
 
-path('about/',
+path(
+    'about/',
+    
       views.about, name 
      = "about"),
 
